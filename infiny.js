@@ -34,9 +34,9 @@ function selectContact(name){
 }
 
 function sendMessage(text){
-    $("#main > footer > div._3oju3 > div._2bXVy > div > div._2S1VP.copyable-text.selectable-text").text(text)
-    input = document.querySelector("#main > footer > div._3oju3 > div._2bXVy > div > div._2S1VP.copyable-text.selectable-text");
+    $("#main > footer > div._3SvgF > div.DuUXI > div > div._1awRl.copyable-text.selectable-text").text(text)
+    input = document.querySelector("#main > footer > div._3SvgF > div.DuUXI > div > div._1awRl.copyable-text.selectable-text");
     input.dispatchEvent(new Event('input', {bubbles: true}));
-	var button = document.querySelector('#main > footer > div._3oju3 > button');
+	var button = document.querySelector('#main > footer > div._3SvgF > div._3qpzV > button');
 	button.click();
 }
